@@ -6,6 +6,6 @@ spring:
       server:
         git:
           default-label: config-server
-          uri: urldelproyectoengit
+          uri: https://github.com/AntonioArredondo/config-server
           search-path: config-data
   application-name: config-service
