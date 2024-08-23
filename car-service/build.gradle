@@ -28,6 +28,8 @@ ext {
 }
 
 dependencies {
+	implementation 'org.springframework.cloud:spring-cloud-starter-sleuth'
+	implementation 'org.springframework.cloud:spring-cloud-starter-zipkin'
 	implementation 'org.springframework.cloud:spring-cloud-starter-config'
 	implementation group: 'org.springframework.cloud', name: 'spring-cloud-starter-bootstrap', version: '4.1.4'
 	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
